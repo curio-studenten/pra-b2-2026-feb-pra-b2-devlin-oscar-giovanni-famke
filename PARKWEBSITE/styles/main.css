@@ -159,7 +159,11 @@ button, a.button{
   height: 64px;
 }
 
-.sidy-by-side{
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1em;
 }
 
 .description{
@@ -217,7 +221,7 @@ footer{
   .row{
     flex-direction: column;
   }
-  .sidy-by-side{
+  .side-by-side {
     flex-direction: column;
     align-items: center;
   }
