@@ -141,7 +141,10 @@ article h2.open-forever{
   margin: 0 auto;
 }
 
-button{
+button, a.button{
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
   width: 100%;
   margin-top: 1em;
   padding: .5em;
@@ -160,6 +163,11 @@ button{
 
 .description{
   flex: 1;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
 }
 
 footer{
