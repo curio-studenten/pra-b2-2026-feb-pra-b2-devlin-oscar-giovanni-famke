@@ -171,6 +171,27 @@ button, a.button{
   flex: 1;
 }
 
+.product-detail{
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+}
+
+.product-image{
+  flex: 0 0 40%;
+  text-align: center;
+}
+
+.product-image img{
+  width: 100%;
+  max-width: 300px;
+}
+
+.product-info{
+  flex: 1;
+}
+
+
 .row{
   display: flex;
   flex-direction: row;
